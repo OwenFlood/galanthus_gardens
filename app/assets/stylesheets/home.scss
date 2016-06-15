@@ -12,10 +12,38 @@
   color: green;
   text-align: center;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .web-hook-second {
   text-align: center;
   font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.consultation-box {
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  background-color: darkgrey;
+  border-radius: 5px;
+
+  .consultation-box-header {
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .consultation-contact-info {
+    text-align: center;
+
+    .consultation-box-email {
+      padding-top: 15px;
+    }
+
+    .consultation-box-phone {
+      padding-top: 15px;
+    }
+  }
+
 }
