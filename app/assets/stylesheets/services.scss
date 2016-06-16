@@ -1,3 +1,47 @@
 // Place all the styles related to the services controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.services-header {
+  position: absolute;
+  width: 700px;
+  top: 35px;
+  left: 150px;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 36px;
+  color: black;
+  line-height: 1.5;
+}
+
+.services-container {
+  font-family: sans-serif;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-around;
+  top: 300px;
+  left: 175px;
+  position: absolute;
+  font-size: 16px;
+
+  .lawn-care-div {
+    width: 300px;
+  }
+
+  .pruning-div {
+    width: 300px;
+  }
+
+  .seasonal-clean-ups-div {
+    width: 300px;
+  }
+
+  .service-spec-header {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .service-spec-desc {
+    font-weight: 400;
+  }
+}
