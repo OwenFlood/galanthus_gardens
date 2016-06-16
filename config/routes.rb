@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   resources :home, only: :index
   resources :services, only: :index
 
+  get "/new_consultation" => "consultations#new_consultation"
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

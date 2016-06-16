@@ -1,0 +1,13 @@
+<%= form_tag({controller: "consultations", action: "new_consultation"}) do |f| %>
+  <div class="">
+    <%= label_tag(:name, "Full Name") %>
+    <%= text_field_tag(:name) %>
+  </div>
+
+  <div class="">
+    <%= label_tag(:body, "Details") %>
+    <%= text_area_tag(:body) %>
+  </div>
+
+  <%= submit_tag("Submit") %>
+<% end %>
