@@ -1,13 +1,13 @@
-<%= form_tag({controller: "consultations", action: "new_consultation"}) do |f| %>
-  <div class="">
-    <%= label_tag(:name, "Full Name") %>
-    <%= text_field_tag(:name) %>
+<%= form_tag({controller: "consultations", action: "new_consultation"}, method: "GET") do |f| %>
+  <div class="consultation-inputs">
+    <%= label_tag :name, "Full Name" %>
+    <%= text_field_tag(:name, "", class: "form-control consultation-author-field") %>
   </div>
 
-  <div class="">
-    <%= label_tag(:body, "Details") %>
-    <%= text_area_tag(:body) %>
+  <div class="consultation-inputs consultation-desc-input">
+    <%= label_tag :body, "Details", class: "consultation-desc-label" %>
+    <%= text_area_tag(:body, "", class: "form-control consultation-desc-field") %>
   </div>
 
-  <%= submit_tag("Submit") %>
+  <%= submit_tag "Submit", class: "btn btn-primary" %>
 <% end %>
