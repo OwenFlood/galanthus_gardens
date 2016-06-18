@@ -18,6 +18,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'simple_form'
 
+
+gem "delayed_job_active_record"
+gem "delayed_job_web"
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -45,6 +49,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
+  gem "letter_opener"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end

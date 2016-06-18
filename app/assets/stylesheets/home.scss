@@ -24,7 +24,7 @@
 .consultation-box {
   margin: 0 auto;
   width: 400px;
-  height: 200px;
+  height: 250px;
   background-color: darkgrey;
   border-radius: 5px;
 
@@ -69,4 +69,11 @@
 
 .consultation-desc-input {
   margin-top: 10px;
+}
+
+.consultation-email-field {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 200px;
 }

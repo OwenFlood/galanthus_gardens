@@ -1,12 +1,17 @@
 <%= form_tag({controller: "consultations", action: "new_consultation"}, method: "GET") do |f| %>
   <div class="consultation-inputs">
     <%= label_tag :name, "Full Name" %>
-    <%= text_field_tag(:name, "", class: "form-control consultation-author-field") %>
+    <%= text_field_tag(:name, "", class: "form-control consultation-author-field", placeholder: "e.g. John Doe") %>
+  </div>
+
+  <div class="consultation-inputs">
+    <%= label_tag :email, "Email" %>
+    <%= text_field_tag(:email, "", class: "form-control consultation-email-field", placeholder: "e.g. example@email.com") %>
   </div>
 
   <div class="consultation-inputs consultation-desc-input">
     <%= label_tag :body, "Details", class: "consultation-desc-label" %>
-    <%= text_area_tag(:body, "", class: "form-control consultation-desc-field") %>
+    <%= text_area_tag(:body, "", class: "form-control consultation-desc-field", placeholder: "e.g. East Vancouver, general yard work") %>
   </div>
 
   <%= submit_tag "Submit", class: "btn btn-primary" %>
