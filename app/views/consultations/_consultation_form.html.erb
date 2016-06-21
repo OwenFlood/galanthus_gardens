@@ -9,9 +9,9 @@
     <%= text_field_tag(:email, "", class: "form-control consultation-email-field", placeholder: "e.g. example@email.com") %>
   </div>
 
-  <div class="consultation-inputs consultation-desc-input">
-    <%= label_tag :body, "Details", class: "consultation-desc-label" %>
-    <%= text_area_tag(:body, "", class: "form-control consultation-desc-field", placeholder: "e.g. East Vancouver, general yard work") %>
+  <div class="consultation-inputs consultation-message-input">
+    <%= label_tag :body, "Message", class: "consultation-message-label" %>
+    <%= text_area_tag(:body, "", class: "form-control consultation-message-field", placeholder: "e.g. East Vancouver, general yard work") %>
   </div>
 
   <%= submit_tag "Submit", class: "btn btn-primary" %>

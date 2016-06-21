@@ -49,25 +49,20 @@
 
 .consultation-author-field {
   display: inline-block;
-  width: 200px;
+  width: 250px;
 }
 
-.consultation-desc-field {
+.consultation-message-field {
   display: inline-block;
   width: 250px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
-.consultation-desc-label {
-  margin-right: 5px;
+.consultation-message-label {
   float: left;
 }
 
-.consultation-inputs {
-  margin-left: 20px;
-}
-
-.consultation-desc-input {
+.consultation-message-input {
   margin-top: 10px;
 }
 
@@ -75,5 +70,9 @@
   display: inline-block;
   margin-top: 10px;
   margin-left: 30px;
-  width: 200px;
+  width: 250px;
+}
+
+.consultation-inputs {
+  margin-left: 20px;
 }
