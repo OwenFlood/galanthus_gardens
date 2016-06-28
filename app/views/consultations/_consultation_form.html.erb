@@ -1,6 +1,6 @@
 <%= form_tag({controller: "consultations", action: "new_consultation"}, method: "GET") do |f| %>
   <div class="consultation-inputs">
-    <%= label_tag :name, "Full Name" %>
+    <%= label_tag :name, "Name" %>
     <%= text_field_tag(:name, "", class: "form-control consultation-author-field", placeholder: "e.g. John Doe") %>
   </div>
 
